@@ -1,0 +1,419 @@
+body {
+    margin: 0px;
+}
+section{
+    font-family: 'Inter', sans-serif;
+}
+div.top{
+    color:#f9fafc;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: #224586;
+}
+div.logo{
+    position: absolute;
+    width: 84px;
+    height: 46px;
+    margin-left: 150px;
+    margin-top: 37px;
+}
+div.logo h5{
+    margin: 5px;
+    font-weight: 400;
+}
+ div.logo h3{
+    margin: 5px;
+}
+div.menu{
+    width: 700px;
+    height: 22px;
+    float: right;
+    margin-top: 49px;    
+    margin-right: 143px;
+}
+div.menu a{
+    text-decoration: none;
+    margin: 10px;
+    color: #f9fafc;
+}
+div.twitter{
+    background:url(assets/img/Vectortwitter.png) no-repeat center center ;
+    float: right;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+div.instagram{
+    background: url(assets/img/Vectorinsta.png) no-repeat center, url(assets/img/Vectorinsta-1.png) no-repeat center, url(assets/img/Vector.png) no-repeat  right 5px top 5px;
+    float: right;
+    height: 22px;
+    width: 22px;
+    margin-left: 10px;
+}div.instagram a, div.twitter a{
+    margin: 5px;
+    color: #F2F2F200;
+}
+section.secao1{
+    position: relative;
+    height: 850px;
+    top: 120px;
+    background:url(assets/img/Backgroundok.png) no-repeat right -85px bottom -35px, #2648A1 ;
+    background-size: 1200px;
+
+}
+div.secao1.textos{
+    position: absolute;
+    width: 660px;
+    height: 300px;
+    top: 43px;
+    left: 155px;
+}
+div.secao1.textos h1{    
+    color: #F2F2F2;
+    font-size: 56px;
+}
+div.secao1.textos p{
+    color: #f9fafc;
+    font-size: 27px;
+    line-height: 140%;
+    font-weight: 400;
+}
+div.secao1.textos button{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 360px;
+    background-color: #fab900;
+    color: #2648A1;
+    font-size: 18px;
+    margin-top: 47px;
+}
+section.secao2{
+    position: relative;
+    top: 150px;
+    height: 1581px;
+    width: auto;
+}
+div.box1s2{
+    position: relative;
+    top: 142px;
+    width: auto; 
+    height: 619px;
+
+}
+div.box1s2.textos{
+    top: 130px;
+    width: 584px;
+    height: auto;
+    left: 150px;
+}
+div.box1s2.textos h2{
+    color: #273444;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+div.box1s2.textos p{
+    color: #3c4858;
+    line-height: 33px;
+    font-size: 21px;
+    
+}
+div.box1s2.textos button{
+    background: none;
+    color: #2648A1;
+    border-color: #2648A1;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    margin-top: 42px;
+}
+div.box1s2 img{
+    position: relative;
+    bottom: 230px;
+    right: 180px;
+    float: right;
+
+}
+div.box2s2{
+    position: relative;
+    height: 662px;
+    top: 267px;
+}
+div.box2s2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 205px;
+    margin-bottom: 12px;
+} 
+div.boxeventos{
+    position: relative;
+    display: inline-block;
+    left: 165px;
+    height: 227px;
+    width: 273px;
+    border-radius: 5px;
+    margin: 40px;
+    border: 1px solid;
+    border-color: #273444;
+}
+div.boxeventos p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #707c8c;
+    margin-left: 16px;
+}
+div.boxeventos h4{
+    font-size: 18px;
+    color: #273444;
+    line-height: 160%;
+    margin-left: 14px;
+}
+div.boxeventos a{
+    color: #2648A1; 
+    font-size: 14px;
+    margin-left: 14px;
+    top: 15px;
+    position: relative;
+}
+div.boxeventos.destaque{
+    background-color: #fab900;
+    border: 0px;
+}
+div.boxeventos.destaque p{
+    color: #1F2D3D;
+
+}
+div.boxeventos.destaque h4{
+    color:#ffffff;
+    
+}
+div.boxeventos.destaque a{
+    color: #805127;
+    font-style: italic;
+}
+div.box2s2 a.link{
+    position: relative;
+    color: #2648A1;
+    margin-left:  205px;
+    font-size: 19px;
+}
+section.secao3{
+    position: relative;
+    top: 90px;
+    height: 1102px;
+    width: auto;
+    background: #D2DCE926;
+}
+section.secao3 h2{
+    width: 320px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 205px;
+    margin-bottom: 12px;
+    padding-top: 77px;
+}
+section.secao3 a{   
+    position: relative;
+    float: right; 
+    bottom: 40px;
+    right: 1250px;
+    color: #2648A1;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+
+}
+div.news{
+    position: relative;
+    display: inline-block;
+    left: 165px;
+    margin: 40px;
+    width: 381px;
+    height: 456px;
+}
+div.news img{
+    width: 405px;
+    height: 316px;
+}
+div.news p{
+    color: #273444;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+div.news h4{
+    color: #2648A1;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+div.news button{
+    width: 148px;
+    height: 47px;
+    font-size: 15px;
+    background: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+div.news.destaque button{
+    background-color: #2648A1;
+    color: #ffffff;
+    border: 0px;
+}
+div.parceiros{
+    height: 348px;
+    background-color: #ffffff;
+    margin-top: 190px;
+}
+div.parceiros h2{
+    position: relative;
+    padding-top: 60px;
+    color: #2648A1;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    left: 32%;
+}
+div.sublinhado{
+    position: relative;
+    left: 44%;
+    height: 2px;
+    width: 105px;
+    background-color: #2648A1;
+}
+div.imagens{
+    padding-top: 40px;
+    padding-left: 240px;
+}
+div.imagens img{
+    height: 150px;
+}
+section.secao4{
+    position: relative;
+    color: #ffffff;
+    margin-top: 200px;
+    background-color: #2648A1;
+    height: 580px;
+}
+section.secao4 h1{
+    position: relative;
+    width: 500px; 
+    top: 40px;
+    left: 750px;
+    font-size: 36px;
+}
+div.contato{
+    position: relative;
+}
+div.contato.textos{
+    width: 360px;
+    float: left;
+    top: 75px;
+    left: 495px;
+}
+div.contato.textos h4{
+    font-size: 19px;
+    line-height: 31px;
+}
+div.contato.textos p{
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+}
+div.contato.textos div p{
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+div.contato.textos div img{
+    position: absolute;
+}
+div.contato.enviar{
+    position: relative;
+    float: right;
+    width: 360px;
+    right: 615px;
+    top: 110px;
+}
+div.contato.enviar input#email{
+    width: 361px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+#email::placeholder{
+    position: relative;
+    left: 40px;
+}
+div.contato.enviar img#email{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+div.contato.enviar input#assunto{
+    width: 361px;
+    height: 40px;
+}
+div.contato.enviar img#assunto{
+    position: relative;
+    float: right;
+    height: 10px;
+    bottom: 27px;
+}
+div.contato.enviar input#mensagem{
+    width: 361px;
+    height: 96px;
+}
+#mensagem::placeholder{
+    position: relative;
+    bottom: 35px;
+}
+div.contato button{
+    margin-top: 15px;
+    width: 366px;
+    height: 40px;
+    background: none;
+    font-size: 13px;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+div.bottom{
+    color:#f9fafc;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #224586;
+}
+div.bottom a.destaque{
+    color: #f2994a;
+    text-decoration: underline;
+}
+div.bottom.menu{
+    position: relative;
+    width: 700px;
+    height: 22px;
+    float: right;
+    margin-top: 49px;    
+    margin-right: 20px;
+}
+div.end{
+    position: relative;
+    top: 50px;
+
+}
+div.end hr{
+    width: 99.9%;
+    border: 1px solid #5066A1;
+}
+div.end img{
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    height: 25px;
+}
